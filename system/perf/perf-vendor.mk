@@ -46,7 +46,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0 \
     libdolphin_ext \
     PowerSaveMode \
-    workloadclassifier \
     QPerformance \
     QXPerformance \
     UxPerformance \
