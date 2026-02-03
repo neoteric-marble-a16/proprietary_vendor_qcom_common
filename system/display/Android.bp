@@ -112,6 +112,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -213,6 +214,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -516,4 +518,5 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    check_elf_files: false,
 }
